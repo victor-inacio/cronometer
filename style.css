@@ -38,3 +38,15 @@ button {
 button:hover {
     background-color: #d60f00;
 }
+
+.buttons {
+    display: flex;
+}
+
+.buttons > *:not(.hide) {
+    margin-right: 10px;
+}
+
+.hide {
+    display: none;
+}
